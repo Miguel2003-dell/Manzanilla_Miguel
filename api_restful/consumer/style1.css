@@ -1,0 +1,111 @@
+/*formulario*/
+body{
+    background-color: rgba(55, 55, 55, 0.916);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.form-register {
+	width: 400px;
+	background: #00c3ffae;
+	padding: 30px;
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 4px;
+	font-family: 'calibri';
+	color: white;
+	box-shadow: 7px 13px 37px #000;
+	font-family: cursive;
+  }
+  
+  .controls {
+	width: 100%;
+	background: #ffb9e4;
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	border: 1px solid #ffffff;
+	font-family: 'calibri';
+	font-size: 18px;
+	color: rgb(0, 0, 0);
+  }
+  
+  .form-register .botons {
+	width: 100%;
+	background: #061948;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 0.85em 1.5em;
+	border-radius: 10
+  }
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  h1{
+	text-align: center;
+  }
+  .form-register a{
+	width: 100%;
+	background: #1f53c5;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+  }
+  /*botones*/
+  .botones{
+	text-decoration: none;
+	background-color: white; 
+	color: black; 
+	border: .1vmax solid #061948;
+	padding: .5vmax .5vmax;
+	margin-left: 45%;
+	margin-right: 50%;
+	font-size: consolas;
+	font-size:4vmin;
+	
+}
+
+.botones:hover {
+	background-color: #ff4000;
+	color: white;
+	padding:.5vmax .5vmax;
+}
+.botones1{
+	text-decoration: none;
+	background-color: white; 
+	color: black; 
+	border: .1vmax solid rgb(204, 12, 12);
+	padding: .1vmax .1vmax;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 6%;
+	font-size:1vmax;
+  
+}
+
+.botones1:hover {
+	background-color: rgb(204, 12, 12);
+	color: white;
+	padding: .1vmax .1vmax;
+}
+
+.menu{
+	display: flex;
+justify-content: space-between;
+background-color:#d3d4d4;
+color: black;
+padding: 13px 15px;
+font-size: 1.2vmax;
+cursor: pointer;
+user-select: none;
+}
